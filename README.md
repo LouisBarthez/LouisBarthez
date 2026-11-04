@@ -5,17 +5,11 @@ imitation learning, reinforcement learning, and getting policies from simulation
 
 📍 Montpellier, France · 🎯 Looking for a **6-month internship in Tokyo** (March – August 2027)
 
-**Now** · Final-year project: *Digital twin and AI for autonomous robotic manipulation* with a Franka Panda (with EuroDAO).
-The simulation stage compares imitation learning and reinforcement learning on a pick-and-place task in MuJoCo,
-before moving to Isaac Sim and the real robot.
-→ [panda-pick-place-il-rl](https://github.com/LouisBarthez/panda-pick-place-il-rl)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/LouisBarthez/panda-pick-place-il-rl/main/media/il_bc_vision.gif" width="560" alt="Panda pick-and-place learned from two cameras">
-</p>
-
-On the real Panda: ROS 2 + MoveIt 2 (C++) driving the arm, with a legacy libfranka 0.8.0 / ROS 2 Foxy stack in Docker to match the robot firmware.
-Cartesian impedance control validated in MuJoCo simulation (contour following on a 3D-printed part); porting to the real robot in progress.
+| Teleoperated data collection | Learned policy running autonomously |
+|:---:|:---:|
+| <img src="media/openarm_teleop.gif" width="400" alt="Leader-follower teleoperation of the bimanual OpenArm"> | <img src="media/openarm_policy.gif" width="360" alt="Imitation learning policy sorting a box on the real OpenArm"> |
+| Leader–follower teleoperation of a bimanual 7-DoF OpenArm | Imitation learning policy on the real robot |
+| *AIST Tokyo Waterfront, 2026* | *AIST Tokyo Waterfront, 2026* |
 
 **Before** · 16-week research internship at **AIST Tokyo Waterfront** (Japan): imitation learning for a bimanual
 box-sorting task on OpenArm 7-DoF arms.
@@ -26,6 +20,18 @@ box-sorting task on OpenArm 7-DoF arms.
 - Built an offline dry-run diagnostic to separate model failures from hardware issues.
 
 *Commits for this project were pushed from a shared lab workstation, so they don't appear in my contribution graph.*
+
+**Now** · Final-year project: *Digital twin and AI for autonomous robotic manipulation* with a Franka Panda (with EuroDAO).
+The simulation stage compares imitation learning and reinforcement learning on a pick-and-place task in MuJoCo,
+before moving to Isaac Sim and the real robot.
+→ [panda-pick-place-il-rl](https://github.com/LouisBarthez/panda-pick-place-il-rl)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LouisBarthez/panda-pick-place-il-rl/main/media/il_bc_vision.gif" width="480" alt="Panda pick-and-place learned from two cameras">
+</p>
+
+On the real Panda: ROS 2 + MoveIt 2 (C++) driving the arm, with a legacy libfranka 0.8.0 / ROS 2 Foxy stack in Docker to match the robot firmware.
+Cartesian impedance control validated in MuJoCo simulation (contour following on a 3D-printed part); porting to the real robot in progress.
 
 #### Tools
 
@@ -44,8 +50,8 @@ box-sorting task on OpenArm 7-DoF arms.
 
 | Project | What |
 |---|---|
-| [panda-pick-place-il-rl](https://github.com/LouisBarthez/panda-pick-place-il-rl) | Pick-and-place with a Franka Panda in MuJoCo: behavior cloning from 2 cameras (50/50) vs SAC (49/50) |
 | [openarm-box-sorting](https://github.com/hcp-ai-hub/openarm-box-sorting) | Bimanual sort-by-weight on real OpenArm arms: ACT, Diffusion Policy, VQ-BeT, π0 + failure analysis |
+| [panda-pick-place-il-rl](https://github.com/LouisBarthez/panda-pick-place-il-rl) | Pick-and-place with a Franka Panda in MuJoCo: behavior cloning from 2 cameras (50/50) vs SAC (49/50) |
 | [Hugging Face](https://huggingface.co/Louislerikiki) | Datasets (100 episodes, 6 cameras) and trained policies from the AIST internship |
 
 #### Contact
