@@ -53,7 +53,7 @@ Cartesian impedance control validated in MuJoCo simulation (contour following on
 | Project | What |
 |---|---|
 | [openarm-box-sorting](https://github.com/hcp-ai-hub/openarm-box-sorting) | Bimanual sort-by-weight on real OpenArm arms: ACT, Diffusion Policy, VQ-BeT, π0 + failure analysis |
-| [panda-pick-place-il-rl](https://github.com/LouisBarthez/panda-pick-place-il-rl) | Pick-and-place with a Franka Panda in MuJoCo: behavior cloning from 2 cameras (50/50) vs SAC (49/50) |
+| [panda-pick-place-il-rl](https://github.com/LouisBarthez/panda-pick-place-il-rl) | Pick-and-place with a Franka Panda in MuJoCo: behavior cloning from 2 cameras (50/50) vs SAC (49/50), plus simulated RGB-D perception (HSV detection + depth back-projection) |
 | [pusher-sac-ppo](https://github.com/LouisBarthez/pusher-sac-ppo) | Reinforcement learning on Gymnasium Pusher (MuJoCo): SAC reaches the target zone in 70 % of test episodes vs 26 % for PPO |
 | [force-control-2R](https://github.com/LouisBarthez/force-control-2R) | Explicit force control of a 2R arm in contact: inner position vs velocity loop, Simulink + Python cross-validated, CoppeliaSim replay |
 | [Hugging Face](https://huggingface.co/Louislerikiki) | Datasets (100 episodes, 6 cameras) and trained policies from the AIST internship |
