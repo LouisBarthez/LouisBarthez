@@ -5,10 +5,10 @@ imitation learning, reinforcement learning, and getting policies from simulation
 
 📍 Montpellier, France · 🎯 Looking for a **6-month internship in Tokyo** (March – August 2027)
 
-| Teleoperated data collection | Learned policy running autonomously |
+| Recording demonstrations | Policy running autonomously |
 |:---:|:---:|
-| <img src="media/openarm_teleop.gif" width="400" alt="Leader-follower teleoperation of the bimanual OpenArm"> | <img src="media/openarm_policy.gif" width="360" alt="Imitation learning policy sorting a box on the real OpenArm"> |
-| Leader–follower teleoperation of a bimanual 7-DoF OpenArm | Imitation learning policy on the real robot |
+| <img src="media/openarm_teleop.gif" width="400" alt="Leader-follower teleoperation of the bimanual OpenArm"> | <img src="media/openarm_policy.gif" width="360" alt="Imitation learning policy running on the real OpenArm"> |
+| Leader–follower teleoperation of the bimanual 7-DoF OpenArm (box-sorting task) | Imitation-learning policy on the real robot (a separate pick-and-place task) |
 | *AIST Tokyo Waterfront, 2026* | *AIST Tokyo Waterfront, 2026* |
 
 **Before** · 16-week research internship at **AIST Tokyo Waterfront** (Japan): imitation learning for a bimanual
@@ -43,6 +43,7 @@ Cartesian impedance control validated in MuJoCo simulation (contour following on
 ![MuJoCo](https://img.shields.io/badge/MuJoCo-0A7BBB)
 ![LeRobot](https://img.shields.io/badge/LeRobot-FFD21E?logo=huggingface&logoColor=black)
 ![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-6A5ACD)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
@@ -53,6 +54,7 @@ Cartesian impedance control validated in MuJoCo simulation (contour following on
 | [openarm-box-sorting](https://github.com/hcp-ai-hub/openarm-box-sorting) | Bimanual sort-by-weight on real OpenArm arms: ACT, Diffusion Policy, VQ-BeT, π0 + failure analysis |
 | [panda-pick-place-il-rl](https://github.com/LouisBarthez/panda-pick-place-il-rl) | Pick-and-place with a Franka Panda in MuJoCo: behavior cloning from 2 cameras (50/50) vs SAC (49/50) |
 | [Hugging Face](https://huggingface.co/Louislerikiki) | Datasets (100 episodes, 6 cameras) and trained policies from the AIST internship |
+| [Perception](https://github.com/LouisBarthez/Perception) | Course lab (OpenCV): detecting and tracking an orange ping-pong ball in images and video (HSV thresholding, morphology, contours) |
 
 #### Contact
 
