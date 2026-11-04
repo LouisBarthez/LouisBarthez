@@ -13,7 +13,7 @@ imitation learning, reinforcement learning, and getting policies from simulation
 
 **Before** · 16-week research internship at **AIST Tokyo Waterfront** (Japan): imitation learning for a bimanual
 box-sorting task on OpenArm 7-DoF arms.
-→ [openarm-box-sorting](https://github.com/hcp-ai-hub/openarm-box-sorting) · [dataset & models on Hugging Face](https://huggingface.co/Louislerikiki)
+→ [openarm-box-sorting](https://github.com/hcp-ai-hub/openarm-box-sorting) · [technical report (PDF)](https://github.com/hcp-ai-hub/openarm-box-sorting/blob/main/docs/openarm_technical_report.pdf) · [dataset & models on Hugging Face](https://huggingface.co/Louislerikiki)
 
 - Brought the robot from a bare kit to a full record → train → evaluate pipeline (CAN FD, leader–follower teleoperation with force feedback, 6 RGB-D streams on custom 3D-printed mounts).
 - Collected 100 teleoperated episodes (~249k frames) and compared **ACT, Diffusion Policy, VQ-BeT and π0** on the real robot.
@@ -43,6 +43,7 @@ Cartesian impedance control validated in MuJoCo simulation (contour following on
 ![MuJoCo](https://img.shields.io/badge/MuJoCo-0A7BBB)
 ![LeRobot](https://img.shields.io/badge/LeRobot-FFD21E?logo=huggingface&logoColor=black)
 ![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-6A5ACD)
+![MATLAB / Simulink](https://img.shields.io/badge/MATLAB%20%2F%20Simulink-E16737)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
@@ -53,6 +54,8 @@ Cartesian impedance control validated in MuJoCo simulation (contour following on
 |---|---|
 | [openarm-box-sorting](https://github.com/hcp-ai-hub/openarm-box-sorting) | Bimanual sort-by-weight on real OpenArm arms: ACT, Diffusion Policy, VQ-BeT, π0 + failure analysis |
 | [panda-pick-place-il-rl](https://github.com/LouisBarthez/panda-pick-place-il-rl) | Pick-and-place with a Franka Panda in MuJoCo: behavior cloning from 2 cameras (50/50) vs SAC (49/50) |
+| [pusher-sac-ppo](https://github.com/LouisBarthez/pusher-sac-ppo) | Reinforcement learning on Gymnasium Pusher (MuJoCo): SAC reaches the target zone in 70 % of test episodes vs 26 % for PPO |
+| [force-control-2R](https://github.com/LouisBarthez/force-control-2R) | Explicit force control of a 2R arm in contact: inner position vs velocity loop, Simulink + Python cross-validated, CoppeliaSim replay |
 | [Hugging Face](https://huggingface.co/Louislerikiki) | Datasets (100 episodes, 6 cameras) and trained policies from the AIST internship |
 | [Perception](https://github.com/LouisBarthez/Perception) | Course lab (OpenCV): detecting and tracking an orange ping-pong ball in images and video (HSV thresholding, morphology, contours) |
 
