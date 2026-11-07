@@ -58,6 +58,7 @@ Cartesian impedance control validated in MuJoCo simulation (contour following on
 | [force-control-2R](https://github.com/LouisBarthez/force-control-2R) | Explicit force control of a 2R arm in contact: inner position vs velocity loop, Simulink + Python cross-validated, CoppeliaSim replay |
 | [Hugging Face](https://huggingface.co/Louislerikiki) | Datasets (100 episodes, 6 cameras) and trained policies from the AIST internship |
 | [Perception](https://github.com/LouisBarthez/Perception) | Course lab (OpenCV): detecting and tracking an orange ping-pong ball in images and video (HSV thresholding, morphology, contours) |
+| [evolving-prey](https://github.com/LouisBarthez/evolving-prey) | Old side project, recently cleaned up: a small evolutionary algorithm (Python, Tkinter) where balls evolve size, speed and direction to survive predators |
 
 #### Contact
 
